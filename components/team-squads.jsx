@@ -183,27 +183,27 @@ export function TeamSquads() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
-                  <Card className="p-4 bg-muted/50">
-                    <Badge className="mb-2 bg-primary">Captain</Badge>
+                  <Card className="p-4 text-center md:text-start bg-muted/50">
+                    <Badge className="mb-2 pt-2 text-white bg-primary">অধিনায়ক</Badge>
                     <p className="font-semibold text-foreground">{team.captain}</p>
                   </Card>
-                  <Card className="p-4 bg-muted/50">
-                    <Badge className="mb-2 bg-secondary">Vice Captain</Badge>
+                  <Card className="p-4 text-center md:text-start bg-muted/50">
+                    <Badge className="mb-2 pt-2 text-white bg-secondary">সহ-অধিনায়ক</Badge>
                     <p className="font-semibold text-foreground">{team.viceCaptain}</p>
                   </Card>
-                  <Card className="p-4 bg-muted/50">
-                    <Badge className="mb-2 bg-accent">Team Manager</Badge>
+                  <Card className="p-4 text-center md:text-start bg-muted/50">
+                    <Badge className="mb-2 pt-2 text-white bg-accent">টিম ম্যানেজার</Badge>
                     <p className="font-semibold text-foreground">{team.teamManager}</p>
                   </Card>
                   {team.assistantManager && (
-                    <Card className="p-4 bg-muted/50">
-                      <Badge className="mb-2 bg-green-600">Assistant Manager</Badge>
+                    <Card className="p-4 text-center md:text-start bg-muted/50">
+                      <Badge className="mb-2 pt-2 text-white bg-green-600">সহকারী ম্যানেজার</Badge>
                       <p className="font-semibold text-foreground">{team.assistantManager}</p>
                     </Card>
                   )}
                   {team.mentor && (
-                    <Card className="p-4 bg-muted/50">
-                      <Badge className="mb-2 bg-yellow-600">Mentor</Badge>
+                    <Card className="p-4 text-center md:text-start bg-muted/50">
+                      <Badge className="mb-2 pt-2 text-white bg-yellow-600">মেন্টর</Badge>
                       <p className="font-semibold text-foreground">{team.mentor}</p>
                     </Card>
                   )}

@@ -10,9 +10,9 @@ export function Hero() {
             id="home"
             className="relative bg-gradient-to-br from-primary/10 via-background to-accent/10 py-16 md:py-24"
         >
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-2">
                 <div className="text-center max-w-4xl mx-auto">
-                    <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4 text-balance">
+                    <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-4 whitespace-nowrap">
                         বুড়িশ্বর প্রিমিয়ার লীগ (বিপিএল) ২০২৫-২৬
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">

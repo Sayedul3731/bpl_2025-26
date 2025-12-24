@@ -85,7 +85,7 @@ export function TournamentSchedule() {
                       <p className="text-sm text-muted-foreground">{match.day}</p>
                     </div>
                   </div>
-                  <div className="flex-1 md:text-center">
+                  <div className="flex-1 text-center md:text-center">
                     <p className="font-semibold text-foreground mb-1">{match.team1}</p>
                     <p className="text-sm text-muted-foreground">vs</p>
                     <p className="font-semibold text-foreground mt-1">{match.team2}</p>
@@ -106,7 +106,7 @@ export function TournamentSchedule() {
                       <p className="text-sm text-muted-foreground">{match.day}</p>
                     </div>
                   </div>
-                  <div className="flex-1 md:text-center">
+                  <div className="flex-1 text-center md:text-center">
                     <p className="font-bold text-primary mb-2">{match.match}</p>
                     <p className="text-sm text-foreground">{match.teams}</p>
                   </div>
@@ -125,7 +125,7 @@ export function TournamentSchedule() {
                     <p className="text-muted-foreground">{finals.day}</p>
                   </div>
                 </div>
-                <div className="flex-1 md:text-center">
+                <div className="flex-1 text-center md:text-center">
                   <p className="font-bold text-2xl text-accent mb-3">{finals.match}</p>
                   <p className="text-foreground">{finals.teams}</p>
                 </div>

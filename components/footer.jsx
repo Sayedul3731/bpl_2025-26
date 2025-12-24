@@ -53,9 +53,14 @@ export function Footer() {
                                 <Mail className="h-4 w-4 text-primary" />
                                 <span>বুড়িশ্বর, দলসমূহ</span>
                             </div>
+                            <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 text-sm text-muted-foreground">
+                                <span className="font-semibold text-foreground">মোহাম্মদ ছায়েদুল হক</span>
+                                <span className="text-xs bg-primary text-primary-foreground px-2 py-0.5 rounded sm:ml-2">Software Engineer</span>
+                                <span className="sm:ml-2">📞 ০১৮৪৩-৪৮৮৭৯৭</span>
+                            </div>
                             <div className="flex gap-3 mt-4">
                                 <a
-                                    href="#"
+                                    href="https://www.facebook.com/md.sayedul.haque.944626/"
                                     className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                                 >
                                     <Facebook className="h-5 w-5" />

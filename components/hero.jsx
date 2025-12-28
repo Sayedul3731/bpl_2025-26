@@ -12,8 +12,9 @@ export function Hero() {
         >
             <div className="container mx-auto px-2">
                 <div className="text-center max-w-4xl mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-4 whitespace-nowrap">
-                        বুড়িশ্বর প্রিমিয়ার লীগ (বিপিএল) ২০২৫-২৬
+                    <h1 className="text-2xl md:text-4xl flex flex-col font-bold text-foreground mb-4">
+                        <span>বুড়িশ্বর প্রিমিয়ার লীগ (বিপিএল)</span>
+                        <span>২০২৫-২৬</span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
                         Welcome to the 7th Season of Burishwar Primier League Cricket Tournament
